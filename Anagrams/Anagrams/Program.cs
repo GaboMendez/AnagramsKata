@@ -13,5 +13,10 @@ namespace Anagrams
             Console.WriteLine();
             Console.ReadKey();
         }
+
+        public static bool IsAnagrams(string x, string y)
+        {
+            return true;
+        }
     }
 }

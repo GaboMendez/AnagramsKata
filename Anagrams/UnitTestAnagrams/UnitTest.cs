@@ -8,10 +8,11 @@ namespace UnitTestAnagrams
     public class UnitTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void IsAnagramsHeaterAndReheat()
         {
             // Arrange
             bool expectedResult = true;
+
             //Act
             bool actualResult = true;
 
