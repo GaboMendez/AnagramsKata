@@ -45,5 +45,31 @@ namespace UnitTestAnagrams
             //Assert
             Assert.AreEqual(expectedResult, actualResult);
         }
+
+        [TestMethod]
+        public void IsAnagramsCardiografíaAndRadiografía()
+        {
+            // Arrange
+            bool expectedResult = false;
+
+            //Act
+            bool actualResult = Program.IsAnagrams("Cardiografía", "Radiografía");
+
+            //Assert
+            Assert.AreEqual(expectedResult, actualResult);
+        }
+
+        [TestMethod]
+        public void IsAnagramsNacionalistaAndAltisonancia()
+        {
+            // Arrange
+            bool expectedResult = true;
+
+            //Act
+            bool actualResult = Program.IsAnagrams("Nacionalista", "Altisonancia");
+
+            //Assert
+            Assert.AreEqual(expectedResult, actualResult);
+        }
     }
 }
