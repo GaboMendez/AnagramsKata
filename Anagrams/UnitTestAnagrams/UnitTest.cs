@@ -8,13 +8,13 @@ namespace UnitTestAnagrams
     public class UnitTest
     {
         [TestMethod]
-        public void IsAnagramsHeaterAndReheat()
+        public void IsAnagramsRiesgoAndSergio()
         {
             // Arrange
             bool expectedResult = true;
 
             //Act
-            bool actualResult = true;
+            bool actualResult = Program.IsAnagrams("Riesgo", "Sergio");
 
             //Assert
             Assert.AreEqual(expectedResult, actualResult);
