@@ -7,6 +7,8 @@
 - [Instrucciones de Configuracion](#Instrucciones-de-Configuración)
 - [Instrucciones de Operacion](#Instrucciones-de-Operación)
 
+
+
 # - Instrucciones de Configuración
 
 ## Prerrequisitos
@@ -17,7 +19,7 @@
 
 1. Clonar el proyecto en un directorio, con el siguiente comando.
 ```sh
-$ git clone 'link del repositorio'
+$ git clone https://github.com/GaboMendez/AnagramsKata.git
 ```
 
 2. Entrar a la carpeta creada e ir al archivo 'Anagrams'.
