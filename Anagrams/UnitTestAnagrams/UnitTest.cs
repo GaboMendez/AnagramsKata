@@ -19,5 +19,18 @@ namespace UnitTestAnagrams
             //Assert
             Assert.AreEqual(expectedResult, actualResult);
         }
+
+        [TestMethod]
+        public void IsAnagramsPoderAndPedro()
+        {
+            // Arrange
+            bool expectedResult = true;
+
+            //Act
+            bool actualResult = Program.IsAnagrams("Poder", "Pedro");
+
+            //Assert
+            Assert.AreEqual(expectedResult, actualResult);
+        }
     }
 }
