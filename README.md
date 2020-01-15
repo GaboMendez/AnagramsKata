@@ -28,13 +28,19 @@ $ git clone https://github.com/GaboMendez/AnagramsKata.git
 
 # - Instrucciones de Operación
 
-1. Abrir el archivo .sln del proyecto.
+1. Ubicar el archivo *wordlist.txt* en el directorio del repositorio.
 
-2. Ejecutar *Start* para correr el proyecto de Kata.
+2. Mover el archivo *wordlist.txt* al siguiente directorio *Anagrams -> Anagrams -> bin -> Debug* 
 
-3. Presionar enter para que se ejecute la funcion de realizar la Kata.
+3. Asegurar que el archivo *wordlist.txt* esta en la carpeta *Debug* de el directorio del repositorio
 
-4. El programa tomara un tiempo para poder determinar las palabras anagramas.
+4. Abrir el archivo .sln del proyecto.
+
+5. Ejecutar *Start* para correr el proyecto de Kata.
+
+6. Presionar enter para que se ejecute la funcion de realizar la Kata.
+
+7. El programa tomara un tiempo para poder determinar las palabras anagramas.
 
 ## Correr Pruebas
 
