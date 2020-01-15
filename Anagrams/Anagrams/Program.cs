@@ -34,26 +34,31 @@ namespace Anagrams
                 int count = 0;
                 var lineAnagrams = "";
                 string str1 = words[i];
-                lineAnagrams += $"{str1} | ";
-                for (int j = i+1; j < words.Count; j++)
+
+                if (str1.Length > 3)
                 {
-                    string str2 = words[j];
-
-                    bool check = IsAnagrams(str1, str2);
-
-                    if (check)
+                    lineAnagrams += $"{str1} | ";
+                    for (int j = i + 1; j < words.Count; j++)
                     {
-                        count++;
-                        lineAnagrams += $"{str2} | ";
+                        string str2 = words[j];
+
+                        bool check = IsAnagrams(str1, str2);
+
+                        if (check)
+                        {
+                            count++;
+                            lineAnagrams += $"{str2} | ";
+                        }
+                    }
+                    if (i.Equals(1000))
+                        break;
+                    // This ignore only one word anagram in the txt file.
+                    if (count > 2)
+                    {
+                        ret.Add(lineAnagrams);
                     }
                 }
-                if (i.Equals(1000))
-                    break;
-                // This ignore only one word anagram in the txt file.
-                if(count > 0)
-                {
-                    ret.Add(lineAnagrams);
-                }
+                
             }
             return ret;
         }
