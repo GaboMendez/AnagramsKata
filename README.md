@@ -1,5 +1,5 @@
 # Anagrams Kata
-### Examen Final | Tendencias en Desarrollo de Aplicaciones | Gabriel Mendez Reyes 1071470
+### | Gabriel Mendez Reyes 1071470 | Examen Final | Tendencias en Desarrollo de Aplicaciones |
 
 
 ## Tabla de contenidos
